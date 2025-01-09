@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.navbar2 {
+  display: flex;
+  align-items: center;
+  padding: var(--navbar-padding, 0.5rem /* 8px */);
+  min-height:55px;
+  height:55px;
+  width: 100%;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+:where(.navbar2 > *:not(script, style)) {
+  display: inline-flex;
+  align-items: center;
 }
