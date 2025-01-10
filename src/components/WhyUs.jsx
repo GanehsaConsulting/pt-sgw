@@ -1,3 +1,5 @@
+import { Tag } from "./Tag";
+
 const whyUs = [
     {
         title: "Layanan Terintegrasi",
@@ -25,9 +27,12 @@ export const WhyUs = () => {
     return (
         <>
             <section className="md:mx-10 mx-5 md:py-24">
-                <h1 className="mb-5 text-5xl ">
-                    Kenapa Pilih Kami?
-                </h1>
+                <div className="space-y-2 mb-5 ">
+                    <Tag text={'Keunggulan'} />
+                    <h1 className="text-4xl font-light">
+                        Kenapa Pilih Kami?
+                    </h1>
+                </div>
                 <div className="flex md:flex-row flex-col gap-2">
                     {whyUs.map((el, idx) => (
                         <div key={idx} className="md:h-[60lvh] duration-500 hover:min-w-[30%] hover:invert ease-in-out min-w-0 bg-[#2f2217] text-white rounded-3xl p-5 flex flex-col justify-between">
