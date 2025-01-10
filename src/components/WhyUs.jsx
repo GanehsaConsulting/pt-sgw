@@ -28,13 +28,13 @@ export const WhyUs = () => {
                 <h1 className="mb-5 text-5xl ">
                     Kenapa Pilih Kami?
                 </h1>
-                <div className="flex gap-5">
+                <div className="flex md:flex-row flex-col gap-2">
                     {whyUs.map((el, idx) => (
-                        <div key={idx} className="h-[60lvh] duration-500 hover:min-w-[50%] ease-in-out min-w-0 bg-darkColor text-white rounded-3xl p-5 flex flex-col justify-between">
-                            <h1 className="text-3xl font-light text-wrap">
+                        <div key={idx} className="md:h-[60lvh] duration-500 hover:min-w-[30%] hover:invert ease-in-out min-w-0 bg-[#2f2217] text-white rounded-3xl p-5 flex flex-col justify-between">
+                            <h1 className="text-2xl md:text-3xl font-light">
                                 {el.title}
                             </h1>
-                            <p>
+                            <p className="mt-10 md:mt-0">
                                 {el.desc}
                             </p>
                         </div>

@@ -1,6 +1,24 @@
 "use client"
 import { useEffect, useState } from "react";
 
+const menu = [
+    {
+        label: "Home",
+    },
+    {
+        label: "About",
+    },
+    {
+        label: "Visi & Misi",
+    },
+    {
+        label: "Why Us",
+    },
+    {
+        label: "Produk & Layanan",
+    },
+]
+
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -55,17 +73,13 @@ export const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        {menu.map((el, idx) => (
+                            <li key={idx}>
+                                <a>
+                                    {el.label}
+                                </a>
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 <div className="navbar-end md:mr-7">

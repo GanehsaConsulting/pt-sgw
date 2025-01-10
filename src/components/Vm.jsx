@@ -12,7 +12,7 @@ export const Vm = () => {
         <>
             <section className="md:mx-10 mx-5 py-10 md:py-24">
                 <div className="flex md:flex-row flex-col gap-5">
-                    <div className="w-[50%] bg-darkColor rounded-3xl p-3 flex items-center gap-5">
+                    <div className="md:w-[50%] bg-darkColor rounded-3xl p-3 flex items-center gap-5">
                         <img
                             className="w-[50%] rounded-xl h-[50lvh] object-cover"
                             src="https://images.unsplash.com/photo-1589725971583-8fa4d89e5e33?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
