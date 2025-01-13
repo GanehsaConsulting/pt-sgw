@@ -14,3 +14,18 @@
   display: inline-flex;
   align-items: center;
 }
+
+.scroll-offset {
+  scroll-margin-top: 300px; /* Atur offset sesuai kebutuhan */
+}
+
+.carousel2 {
+  display: inline-flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.carousel2::-webkit-scrollbar {
+  display: none;
+}

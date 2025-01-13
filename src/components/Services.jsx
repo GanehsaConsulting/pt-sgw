@@ -54,7 +54,7 @@ export const Services = () => {
                             className={`${idx === 0 && "ml-5 md:ml-0"} ${idx === produkKami.keunggulan.length - 1 && "mr-5 md:mr-0"} h-[60lvh] md:min-w-0 min-w-[80lvw] md:hover:scale-90 duration-300 ease-in-out relative rounded-3xl overflow-hidden`}
                         >
                             <img
-                                className="w-full h-full object-cover rounded-3xl"
+                                className="w-full h-full object-cover rounded-3xl bg-mainColor"
                                 src={el.img}
                                 alt={el.deskripsi}
                             />
