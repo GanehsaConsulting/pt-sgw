@@ -58,14 +58,17 @@ export const Vm = () => {
                 <div className="absolute inset-0 h-[10%] bg-gradient-to-b from-white to-transparent"></div>
 
                 <div className="absolute inset-0 h-full w-full">
-                    <div className="md:mx-10 mx-0 flex justify-center items-center h-full">
+                    <div className="md:mx-10 mx-0 flex flex-col justify-center gap-5 h-full">
+                        <p className="mx-5 md:mx-0 px-4 py-1 w-fit  bg-neutral-300 text-neutral-700 bg-opacity-30 backdrop-blur-lg rounded-full text-2xl md:text-3xl uppercase font-light tracking-wider">
+                            Misi
+                        </p>
                         <div className="md:flex gap-3 carousel2 w-full">
                             {misi.map((el, idx) => (
                                 <div
                                     key={idx}
                                     className={`
                                         ${idx === 0 && "ml-5 md:ml-0"} ${idx === misi.length - 1 && "mr-5 md:mr-0"}
-                                        flex flex-col grow justify-between h-[52lvh] md:min-w-0 min-w-[70%] bg-neutral-300 text-neutral-700 bg-opacity-30 backdrop-blur-lg p-5 rounded-3xl`}
+                                        flex flex-col gap-10 grow justify-between min-h-[52lvh] md:min-w-0 min-w-[70%] bg-neutral-300 text-neutral-700 bg-opacity-30 backdrop-blur-lg p-5 rounded-3xl`}
                                 >
                                     <h1 className="text-xl md:text-2xl font-light">
                                         {el.head}
