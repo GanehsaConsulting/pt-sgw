@@ -39,7 +39,7 @@ export default function Home() {
       <AnimateOnce animation={'animate__fadeInDown'} id="why-us" style={{ scrollMarginTop: "20px" }}>
         <WhyUs />
       </AnimateOnce>
-      <AnimateOnce animation={'animate__fadeInDown'} id="produk-&-layanan" style={{ scrollMarginTop: "90px" }}>
+      <AnimateOnce animation={'animate__fadeInDown'} id="produk-&-layanan" style={{ scrollMarginTop: "120px" }}>
         <Services />
       </AnimateOnce>
       <AnimateOnce animation={'animate__fadeInDown'} id="kontak" style={{ scrollMarginTop: "10px" }}>

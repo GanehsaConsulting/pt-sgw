@@ -1,13 +1,13 @@
-import { FaFacebookF, FaInstagram, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { Tag } from "./Tag";
 
 export const contacts = {
     address: {
         label: "Head Office",
-        data: "Jl. Kebon Bawang V No.12, RT.1/RW.6, Kb. Bawang, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14320",
-        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4008.4476522946275!2d106.88752157498953!3d-6.114062693872525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1feac3780faf%3A0xb175d4464151061!2sJl.%20Kebon%20Bawang%20V%20No.12%2C%20RT.1%2FRW.6%2C%20Kb.%20Bawang%2C%20Kec.%20Tj.%20Priok%2C%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2014320!5e1!3m2!1sid!2sid!4v1736492436537!5m2!1sid!2sid",
-        link: "https://maps.app.goo.gl/BdVxn99bZMZgwqRVA"
+        data: "Jl. Kebon Bawang V No.12, RT.11/RW.8, Kb. Bawang, Kec. Tj. Priok, Jkt Utara, Daerah Khusus Ibukota Jakarta 14320",
+        embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4008.449157768673!2d106.89026229999999!3d-6.1138618000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1f002b6ec573%3A0xf6f2514b833f75ea!2sPT.%20SGW%20INDO%20LOGISTIK!5e1!3m2!1sid!2sid!4v1737099742448!5m2!1sid!2sid",
+        link: "https://maps.app.goo.gl/nHfRnMtuy8fkGgxv6"
     },
     phone: {
         name: '085715898379',
@@ -22,13 +22,13 @@ export const contacts = {
     socmed: [
         {
             name: 'Instagram',
-            link: '',
+            link: 'https://www.instagram.com/sgw.indologistik',
             logo: <FaInstagram />,
         },
         {
-            name: 'Facebook',
-            link: '',
-            logo: <FaFacebookF />,
+            name: 'LinkedIn',
+            link: 'https://www.linkedin.com/in/sgw-indo-logistik-5a47971b1/',
+            logo: <FaLinkedin />,
         },
         {
             name: 'WhatsApp',

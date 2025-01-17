@@ -26,7 +26,7 @@ const whyUs = [
 export const WhyUs = () => {
     return (
         <>
-            <section className="md:mx-10 mx-5 md:py-24">
+            <section className="md:mx-10 mx-5 md:py-24 mt-24 md:mt-0">
                 <div className="space-y-2 mb-5 ">
                     <Tag text={'Keunggulan'} />
                     <h1 className="text-4xl font-light">

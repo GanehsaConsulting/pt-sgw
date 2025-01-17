@@ -21,7 +21,7 @@ const produkKami = {
         },
         {
             judul: "Dukungan Kustomisasi",
-            img: "https://images.unsplash.com/photo-1730473314315-519c9947904c?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://images.unsplash.com/photo-1718470822407-f347f8a17798?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             deskripsi: "Kami siap menyesuaikan layanan kami agar sesuai dengan kebutuhan spesifik bisnis Anda."
         },
         {
@@ -35,37 +35,39 @@ const produkKami = {
 export const Services = () => {
     return (
         <>
-            <section className="md:mx-10 md:my-24 my-10">
-                <div className="flex gap-10 items-center mx-5 md:mx-0">
-                    <div className="flex flex-col gap-2">
-                        <Tag text={'Layanan'} />
-                        <h1 className="text-4xl font-light">
-                            {produkKami.judul}
-                        </h1>
-                        <p>
-                            {produkKami.deskripsi}
-                        </p>
-                    </div>
-                </div>
-                <div className="md:grid md:grid-cols-5 w-full carousel gap-2 mt-5">
-                    {produkKami.keunggulan.map((el, idx) => (
-                        <div
-                            key={idx}
-                            className={`${idx === 0 && "ml-5 md:ml-0"} ${idx === produkKami.keunggulan.length - 1 && "mr-5 md:mr-0"} h-[60lvh] md:min-w-0 min-w-[80lvw] md:hover:scale-90 duration-300 ease-in-out relative rounded-3xl overflow-hidden`}
-                        >
-                            <img
-                                className="w-full h-full object-cover rounded-3xl bg-mainColor"
-                                src={el.img}
-                                alt={el.deskripsi}
-                            />
-                            <div className="absolute top-0 w-full h-[50%] bg-gradient-to-b from-darkColor to-transparent" />
-                            <div className="absolute top-4 right-5 left-5">
-                                <h1 className="text-white text-xl font-light">
-                                    {el.judul}
-                                </h1>
-                            </div>
+            <section className="md:mx-10 md:my-24 my-10 flex items-center justify-center min-h-screen">
+                <div>
+                    <div className="flex gap-10 items-center mx-5 md:mx-0">
+                        <div className="flex flex-col gap-2">
+                            <Tag text={'Layanan'} />
+                            <h1 className="text-4xl font-light">
+                                {produkKami.judul}
+                            </h1>
+                            <p>
+                                {produkKami.deskripsi}
+                            </p>
                         </div>
-                    ))}
+                    </div>
+                    <div className="md:grid md:grid-cols-5 w-full carousel gap-2 mt-5">
+                        {produkKami.keunggulan.map((el, idx) => (
+                            <div
+                                key={idx}
+                                className={`${idx === 0 && "ml-5 md:ml-0"} ${idx === produkKami.keunggulan.length - 1 && "mr-5 md:mr-0"} h-[60lvh] md:min-w-0 min-w-[80lvw] md:hover:scale-90 duration-300 ease-in-out relative rounded-3xl overflow-hidden`}
+                            >
+                                <img
+                                    className="w-full h-full object-cover rounded-3xl bg-neutral-200"
+                                    src={el.img}
+                                    alt={el.deskripsi}
+                                />
+                                <div className="absolute top-0 w-full h-[50%] bg-gradient-to-b from-darkColor to-transparent" />
+                                <div className="absolute top-4 right-5 left-5">
+                                    <h1 className="text-white text-xl font-light">
+                                        {el.judul}
+                                    </h1>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </section>
         </>
