@@ -35,8 +35,8 @@ const produkKami = {
 export const Services = () => {
     return (
         <>
-            <section className="md:mx-10 md:my-24 my-10 flex items-center justify-center min-h-screen">
-                <div>
+            <section className="md:flex md:items-center md:justify-center md:min-h-screen">
+                <div className="md:px-10 md:my-24 my-10 ">
                     <div className="flex gap-10 items-center mx-5 md:mx-0">
                         <div className="flex flex-col gap-2">
                             <Tag text={'Layanan'} />
@@ -48,7 +48,7 @@ export const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="md:grid md:grid-cols-5 w-full carousel gap-2 mt-5">
+                    <div className="md:grid md:grid-cols-5 w-full carousel2 gap-2 mt-5">
                         {produkKami.keunggulan.map((el, idx) => (
                             <div
                                 key={idx}

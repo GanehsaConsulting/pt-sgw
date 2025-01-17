@@ -27,24 +27,26 @@ export default function Home() {
         <meta name="twitter:image" content="/images/twitter-image.jpg" />
         <link rel="canonical" href="https://www.sgwindologistik.com" />
       </Head>
-      <AnimateOnce animation={'animate__fadeInDown'} style={{ scrollMarginTop: "200px" }}>
+
+      <AnimateOnce animation="animate__fadeInDown" id="banner">
         <Banner />
       </AnimateOnce>
-      <AnimateOnce animation={'animate__fadeInDown'} id="about" style={{ scrollMarginTop: "200px" }}>
+      <AnimateOnce animation="animate__fadeInDown" id="about">
         <AboutUs />
       </AnimateOnce>
-      <AnimateOnce animation={'animate__fadeInDown'} id="visi-&-misi" style={{ scrollMarginTop: "100px" }}>
+      <AnimateOnce animation="animate__fadeInDown" id="visi-&-misi">
         <Vm />
       </AnimateOnce>
-      <AnimateOnce animation={'animate__fadeInDown'} id="why-us" style={{ scrollMarginTop: "20px" }}>
+      <AnimateOnce animation="animate__fadeInDown" id="why-us">
         <WhyUs />
       </AnimateOnce>
-      <AnimateOnce animation={'animate__fadeInDown'} id="produk-&-layanan" style={{ scrollMarginTop: "120px" }}>
+      <AnimateOnce animation="animate__fadeInDown" id="produk-&-layanan">
         <Services />
       </AnimateOnce>
-      <AnimateOnce animation={'animate__fadeInDown'} id="kontak" style={{ scrollMarginTop: "10px" }}>
+      <AnimateOnce animation="animate__fadeInDown" id="kontak">
         <Contact />
       </AnimateOnce>
+
     </>
   );
 }

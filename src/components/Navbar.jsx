@@ -89,7 +89,7 @@ export const Navbar = () => {
     return (
         <>
             <div className={`z-[999] navbar2 fixed
-                ${isScrolled ? 'bg-white bg-opacity-50 backdrop-blur-lg' : 'bg-transparent text-white'}
+                ${isScrolled ? 'bg-white bg-opacity-50 backdrop-blur-0' : 'bg-transparent text-white'}
                 `}>
                 <div className="navbar-start md:ml-8">
                     <a className="font-medium text-xl">
