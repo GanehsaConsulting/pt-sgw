@@ -1,10 +1,14 @@
+import Image from "next/image"
+
 export const Banner = () => {
     return (
         <>
             <section className="w-screen h-screen relative">
                 <img
+                    width={500}
+                    height={500}
                     className="w-full h-full object-cover brightness-[.70] bg-neutral-200"
-                    src="https://images.unsplash.com/photo-1580792442187-93e20f48fa5a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/header_06e576aa4c.jpg"
                     alt="Banner Image" />
                 <div className="md:block hidden">
                     <div className="absolute bottom-0 md:bottom-10 left-5 right-5 md:left-10 md:w-[60%] space-y-5">
@@ -20,7 +24,7 @@ export const Banner = () => {
                         <h1 className="text-right">
                             Membawa Kemudahan dalam Pengelolaan Jasa Transportasi
                         </h1>
-                        <button className="px-4 py-2 w-fit bg-darkColor rounded-full font-semibold text-sm">
+                        <button className="px-4 py-2 w-fit bg-secondaryColor text-darkColor rounded-full font-semibold text-sm">
                             Explore More
                         </button>
                     </div>
@@ -39,7 +43,7 @@ export const Banner = () => {
                         <h1 className="">
                             Membawa Kemudahan dalam Pengelolaan Jasa Transportasi
                         </h1>
-                        <button className="px-4 py-2 w-fit bg-darkColor rounded-full font-semibold text-sm">
+                        <button className="px-4 py-2 w-fit bg-secondaryColor text-darkColor rounded-full font-semibold text-sm">
                             Explore More
                         </button>
                     </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Tag } from "./Tag";
 
 const produkKami = {
@@ -6,27 +7,27 @@ const produkKami = {
     keunggulan: [
         {
             judul: "Perencanaan Logistik yang Tepat",
-            img: "https://images.unsplash.com/photo-1587149185211-28a2ef4c9a10?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Perencanaan_Logistik_yang_Tepat_416bb22d23.jpg",
             deskripsi: "Kami membantu Anda merancang proses logistik yang sesuai dengan kebutuhan bisnis Anda."
         },
         {
             judul: "Pengiriman yang Efisien",
-            img: "https://plus.unsplash.com/premium_photo-1682144324433-ae1ee89a0238?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Pengiriman_yang_Efisien_aef03ff205.jpg",
             deskripsi: "Kami memastikan setiap pengiriman tiba tepat waktu dengan pengelolaan yang optimal."
         },
         {
             judul: "Solusi Praktis dan Terpercaya",
-            img: "https://images.unsplash.com/photo-1644352442473-57f4cd0873c3?q=80&w=3086&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Solusi_Praktis_dan_Terpercaya_20724d707e.jpg",
             deskripsi: "Kami menyediakan solusi yang sederhana namun terpercaya untuk mengatasi tantangan logistik."
         },
         {
             judul: "Dukungan Kustomisasi",
-            img: "https://images.unsplash.com/photo-1718470822407-f347f8a17798?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Dukungan_Kustomisasi_8d6612d3da.jpg",
             deskripsi: "Kami siap menyesuaikan layanan kami agar sesuai dengan kebutuhan spesifik bisnis Anda."
         },
         {
             judul: "Fokus pada Pertumbuhan Bisnis",
-            img: "https://images.unsplash.com/photo-1449586919022-f3dfddc48a71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/fokus_pada_pertumbuhan_Bisnis_6b3fa40f4e.jpg",
             deskripsi: "Dengan logistik yang baik, kami mendukung pertumbuhan dan kesuksesan bisnis Anda."
         }
     ]
@@ -54,7 +55,9 @@ export const Services = () => {
                                 key={idx}
                                 className={`${idx === 0 && "ml-5 md:ml-0"} ${idx === produkKami.keunggulan.length - 1 && "mr-5 md:mr-0"} h-[60lvh] md:min-w-0 min-w-[80lvw] md:hover:scale-90 duration-300 ease-in-out relative rounded-3xl overflow-hidden`}
                             >
-                                <img
+                                <Image
+                                    width={500}
+                                    height={500}
                                     className="w-full h-full object-cover rounded-3xl bg-neutral-200"
                                     src={el.img}
                                     alt={el.deskripsi}

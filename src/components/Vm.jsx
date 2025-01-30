@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Tag } from "./Tag"
 
 const misi = [
@@ -34,9 +35,11 @@ export const Vm = () => {
             <section className="md:mx-10 mx-5 py-10 md:py-24">
                 <div className="flex md:flex-col flex-col gap-5 md:gap-10 justify-center items-center">
                     <div className="md:w-full bg-darkColor rounded-3xl p-3 flex md:flex-row flex-col items-center gap-5">
-                        <img
+                        <Image
+                            width={500}
+                            height={500}
                             className="md:w-[50%] rounded-xl md:h-[70lvh] object-cover bg-neutral-200"
-                            src="https://images.unsplash.com/photo-1589725971583-8fa4d89e5e33?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/visi_1006b4b663.jpg"
                             alt=""
                         />
                         <div>
@@ -51,9 +54,10 @@ export const Vm = () => {
                 </div>
             </section>
             <div className="h-[90lvh] relative">
-                <img
+                <Image
+                    fill
                     className="h-full w-full object-cover bg-neutral-200"
-                    src="https://images.unsplash.com/photo-1618371381061-d7d875a2e432?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/misi_31beee518d.jpg"
                     alt="" />
                 <div className="absolute inset-0 h-[10%] bg-gradient-to-b from-white to-transparent"></div>
 

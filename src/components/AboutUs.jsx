@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Tag } from "./Tag"
 
 export const AboutUs = () => {
@@ -18,9 +19,11 @@ export const AboutUs = () => {
                             </div>
                         </div>
                         <div className="md:w-[65%] flex md:flex-row flex-col gap-2">
-                            <img
+                            <Image
+                                width={500}
+                                height={500}
                                 className="md:w-[50%] md:h-[40lvh] object-cover rounded-3xl order-last md:order-none bg-neutral-200"
-                                src="https://images.unsplash.com/photo-1715270352563-7527733ad0fd?q=80&w=3039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/about_us_8550605568.jpg"
                                 alt="" />
                             <div className="md:w-[50%] p-5 font-medium bg-secondaryBlue text-white rounded-3xl space-y-2 text-lg">
                                 <p>
