@@ -11,10 +11,10 @@ export const AboutUs = () => {
                         <div className="md:w-[35%] space-y-5">
                             <div className="space-y-2 font-medium md:text-xl text-lg p-5 border rounded-3xl h-full border-neutral-400">
                                 <p>
-                                    PT. SGW Indo Logistik adalah perusahaan yang bergerak di bidang jasa pengurusan transportasi (JPT).
+                                   PT. SGW Indo Logistik adalah perusahaan yang bergerak di bidang Jasa Pengiriman Alat Berat.
                                 </p>
                                 <p>
-                                    Dengan komitmen tinggi terhadap profesionalisme dan efisiensi, kami hadir untuk menjadi mitra terpercaya dalam memenuhi kebutuhan logistik  Anda.
+                                    Dengan komitmen tinggi terhadap profesionalisme dan efisiensi, kami hadir untuk menjadi mitra terpercaya dalam memenuhi kebutuhan Pengiriman Alat Berat anda ke seluruh Indonesia.
                                 </p>
                             </div>
                         </div>
