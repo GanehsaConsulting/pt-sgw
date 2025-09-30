@@ -22,7 +22,7 @@ export const contacts = {
     socmed: [
         {
             name: 'Instagram',
-            link: 'https://www.instagram.com/sgw.indologistik',
+            link: 'www.instagram.com/sgwindologistik',
             logo: <FaInstagram />,
         },
         {
