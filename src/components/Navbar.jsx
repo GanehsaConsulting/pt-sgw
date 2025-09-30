@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export const menu = [
@@ -88,18 +89,30 @@ export const Navbar = () => {
     };
     return (
         <>
-            <div className={`z-[999] navbar2 fixed
+            <div className={`z-[999] navbar2 fixed duration-300 ease-in-out
                 ${isScrolled ? 'bg-white bg-opacity-50 backdrop-blur-lg' : 'bg-transparent text-white'}
                 `}>
                 <div className="navbar-start md:ml-8">
-                    <a className="font-medium text-xl">
+                    <Link
+                        href={"/"}
+                        className={`${isScrolled ? "" : "brightness-[200] contrast-200 grayscale"} duration-300 flex items-center`}
+                    >
                         <Image
-                            src='/SGW.png'
-                            width={75}
-                            height={75}
+                            src='/logo.png'
+                            width={55}
+                            height={55}
+                            className="-mt-2"
                             alt="SGW"
                         />
-                    </a>
+
+                        <Image
+                            src='/teks.png'
+                            width={160}
+                            height={160}
+                            className="-ml-10"
+                            alt="SGW"
+                        />
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

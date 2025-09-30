@@ -39,7 +39,7 @@ export const Vm = () => {
                             width={500}
                             height={500}
                             className="md:w-[50%] rounded-xl md:h-[70lvh] object-cover bg-neutral-200"
-                            src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/visi_1006b4b663.jpg"
+                            src="/visi.webp"
                             alt=""
                         />
                         <div>
@@ -57,7 +57,7 @@ export const Vm = () => {
                 <Image
                     fill
                     className="h-full w-full object-cover bg-neutral-200"
-                    src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/misi_31beee518d.jpg"
+                    src="/misi.webp"
                     alt="" />
                 <div className="absolute inset-0 h-[10%] bg-gradient-to-b from-white to-transparent"></div>
 

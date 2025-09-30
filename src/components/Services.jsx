@@ -7,27 +7,27 @@ const produkKami = {
     keunggulan: [
         {
             judul: "Perencanaan Logistik yang Tepat",
-            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Perencanaan_Logistik_yang_Tepat_416bb22d23.jpg",
+            img: "/1.webp",
             deskripsi: "Kami membantu Anda merancang proses logistik yang sesuai dengan kebutuhan bisnis Anda."
         },
         {
             judul: "Pengiriman yang Efisien",
-            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Pengiriman_yang_Efisien_aef03ff205.jpg",
+            img: "/2.webp",
             deskripsi: "Kami memastikan setiap pengiriman tiba tepat waktu dengan pengelolaan yang optimal."
         },
         {
             judul: "Solusi Praktis dan Terpercaya",
-            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Solusi_Praktis_dan_Terpercaya_20724d707e.jpg",
+            img: "/3.webp",
             deskripsi: "Kami menyediakan solusi yang sederhana namun terpercaya untuk mengatasi tantangan logistik."
         },
         {
             judul: "Dukungan Kustomisasi",
-            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/Dukungan_Kustomisasi_8d6612d3da.jpg",
+            img: "/4.webp",
             deskripsi: "Kami siap menyesuaikan layanan kami agar sesuai dengan kebutuhan spesifik bisnis Anda."
         },
         {
             judul: "Fokus pada Pertumbuhan Bisnis",
-            img: "https://cms-ganesha.ganeshaconsulting.co.id/uploads/fokus_pada_pertumbuhan_Bisnis_6b3fa40f4e.jpg",
+            img: "/5.webp",
             deskripsi: "Dengan logistik yang baik, kami mendukung pertumbuhan dan kesuksesan bisnis Anda."
         }
     ]

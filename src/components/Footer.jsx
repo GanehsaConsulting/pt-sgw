@@ -9,7 +9,7 @@ export const Footer = () => {
             <footer className="footer text-base-content p-10">
                 <aside>
                     <Image
-                        src='/SGW.png'
+                        src='/logo-full.png'
                         width={120}
                         height={120}
                         alt="SGW"

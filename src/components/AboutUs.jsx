@@ -23,7 +23,7 @@ export const AboutUs = () => {
                                 width={500}
                                 height={500}
                                 className="md:w-[50%] md:h-[40lvh] object-cover rounded-3xl order-last md:order-none bg-neutral-200"
-                                src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/about_us_8550605568.jpg"
+                                src="/about.webp"
                                 alt="" />
                             <div className="md:w-[50%] p-5 font-medium bg-secondaryBlue text-white rounded-3xl space-y-2 text-lg">
                                 <p>

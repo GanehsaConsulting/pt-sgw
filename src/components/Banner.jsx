@@ -3,12 +3,12 @@ import Image from "next/image"
 export const Banner = () => {
     return (
         <>
-            <section className="w-screen h-screen relative">
-                <img
+            <section className="h-screen relative">
+                <Image
                     width={500}
                     height={500}
                     className="w-full h-full object-cover brightness-[.70] bg-neutral-200"
-                    src="https://cms-ganesha.ganeshaconsulting.co.id/uploads/header_06e576aa4c.jpg"
+                    src="/header.webp"
                     alt="Banner Image" />
                 <div className="md:block hidden">
                     <div className="absolute bottom-0 md:bottom-10 left-5 right-5 md:left-10 md:w-[60%] space-y-5">
