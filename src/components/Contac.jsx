@@ -15,8 +15,8 @@ export const contacts = {
         logo: <FaPhone />
     },
     mail: {
-        name: "krektransformasiglobal@gmail.com",
-        link: "mailto:krektransformasiglobal@gmail.com",
+        name: "sgwindologistik@gmail.com",
+        link: "mailto:sgwindologistik@gmail.com",
         logo: <IoMailOutline />
     },
     socmed: [
