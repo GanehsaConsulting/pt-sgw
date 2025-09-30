@@ -16,8 +16,7 @@ export const Banner = () => {
                             PT SGW INDO LOGISTIK
                         </p>
                         <h1 className="text-3xl md:text-5xl font-light text-white tracking-wide">
-                            Solusi Efektif untuk Logistik & Perdagangan Anda <br />
-                            Meningkatkan efisiensi transportasi dan memaksimalkan potensi bisnis Anda!
+                        Solusi Efektif untuk Pengiriman Alat Berat ke Seluruh Indonesia
                         </h1>
                     </div>
                     <div className="absolute bottom-5 md:right-10 md:top-10 md:bottom-10 md:w-[20%] text-white flex flex-col gap-3 justify-end md:items-end">

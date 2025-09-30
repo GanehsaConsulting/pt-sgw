@@ -3,7 +3,7 @@ import { Tag } from "./Tag"
 
 const misi = [
     {
-        head: "Menyediakan solusi logistik yang handal",
+        head: "Menyediakan solusi pengiriman alat berat yang handal",
         desc: "Mengoptimalkan pengiriman alat berat dengan jadwal yang tepat waktu, aman, dan efisien untuk memenuhi kebutuhan pelanggan."
     },
     {
@@ -46,7 +46,8 @@ export const Vm = () => {
                             <div className="space-y-3">
                                 <Tag text={'Visi'} className={'text-white h-fit'} />
                                 <p className="text-white text-lg">
-                                    Menjadi penyedia layanan logistik alat berat terkemuka yang dikenal Karena inovasi, efisiensi, dan komitmen terhadap keselamatan serta Kepuasan pelanggan, dengan mendukung pertumbuhan industri Konstruksi, pertambangan, dan infrastruktur di indonesia.
+                                    Menjadi penyedia layanan pengiriman alat berat terkemuka yang dikenal Karena inovasi, efisiensi, dan komitmen terhadap keselamatan serta Kepuasan pelanggan, dengan mendukung pertumbuhan industri Konstruksi, pertambangan, dan
+                                    infrastruktur di indonesia.
                                 </p>
                             </div>
                         </div>
